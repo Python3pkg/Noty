@@ -5,12 +5,12 @@ def cli():
     print("Welcome to noty")
     time.sleep(1)
     print("To create a new note, type N")
-    note=raw_input(": ")
+    note=input(": ")
     if note=="N" or note=="n":
-	    inside=raw_input("Type something on your note!: ")
+	    inside=input("Type something on your note!: ")
 	    print("Succesfully created a sticke note!")
             time.sleep(1)
-	    print clear
+	    print(clear)
 	    print (inside)
     else:
 	    print("Something went wrong")
